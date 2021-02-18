@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HandBook">
+
+    <RelativeLayout
+        android:id="@+id/level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/General"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/inputsearchbar"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="General"
+            android:backgroundTint="@color/savcolor"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <Button
+            android:id="@+id/yr1"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/General"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputsearchbar"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="100L"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <Button
+            android:id="@+id/yr2"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/yr1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputsearchbar"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="200L"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+
+        <Button
+            android:id="@+id/yr3"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/yr2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputsearchbar"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="300L"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <Button
+            android:id="@+id/yr4"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/yr3"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputsearchbar"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="400L"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>

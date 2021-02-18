@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="35dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <ImageView
+        android:id="@+id/lecturerpic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        android:layout_margin="20dp"
+        android:background="@android:color/white"
+        android:src="@mipmap/ic_launcher"
+
+
+
+
+        />
+
+        <!--android:background="#2d2d2d"-->
+
+
+
+        <TextView
+            android:layout_below="@+id/lecturerpic"
+            android:id="@+id/lectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="lecturer name"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_below="@id/lecturerpic"
+            android:id="@+id/lectDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:text="lecturer details"
+            android:textColor="#fff"
+
+            />
+
+    <Button
+        android:layout_below="@id/lectDetails"
+        android:id="@+id/checkdetails"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="checkdetails" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

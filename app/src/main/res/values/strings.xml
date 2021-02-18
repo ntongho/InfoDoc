@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">InfoDoc</string>
+    <string name="lect">Lecturer</string>
+    <string-array name="lect">
+        <item>Bassey Igbo Ele</item>
+        <item>Agana Moses Agana</item>
+        <item>Eteng Eteng</item>
+        <item>Bassey Igbo Ele</item>
+        <item>Bassey Igbo Ele</item>
+        <item>Bassey Igbo Ele</item>
+    </string-array>
+</resources>
